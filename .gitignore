@@ -1,0 +1,54 @@
+# Node modules
+node_modules/
+npm-debug.log*
+yarn-error.log
+pnpm-debug.log
+
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# Build artifacts
+dist/
+build/
+.cache/
+.next/
+out/
+coverage/
+
+# Dependency directories (for monorepos)
+**/node_modules
+
+# Editor & OS-specific files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# TypeScript
+*.tsbuildinfo
+
+# Optional: Ignore compiled JavaScript files (if using TypeScript)
+*.js
+*.js.map
+*.d.ts
+
+# Docker files
+docker-compose.override.yml
+.dockerignore
+
+# Misc
+.nyc_output
+coverage/
